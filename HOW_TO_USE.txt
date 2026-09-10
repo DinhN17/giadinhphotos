@@ -1,0 +1,142 @@
+HOW TO USE FAMILY PHOTO CATEGORIZER
+=====================================
+
+FOR COMPLETE BEGINNERS - NO TECH SKILLS NEEDED
+
+WHAT YOU NEED:
+---------------
+- A Windows computer (Windows 10 or newer)
+- Some family photos in a folder
+- Internet connection (only for the first time)
+- At least 500 MB of free space on your computer
+
+WHAT YOU DON'T NEED:
+-------------------
+- No programming skills needed
+- No computer science knowledge needed
+- No command line skills needed
+- No special software (it installs what it needs automatically)
+
+
+STEPS (DETAILED):
+----------------
+
+STEP 1: PREPARE YOUR PHOTOS
+-----------------------------
+Before you start:
+- Open File Explorer (click the folder icon at the bottom of your screen)
+- Find the folder that contains your family photos
+- Remember the folder name (for example: "C:\Users\YourName\Pictures\Family")
+- Make sure there are some .jpg or .png files in it
+
+STEP 2: START THE SETUP
+-----------------------
+In the folder C:\HermesAIAgent\Dinh\GiaDinhPhotos:
+- Find the file called "setup.bat" (it has a yellow-run icon)
+- Double-click "setup.bat"
+- Click "YES" when Windows asks if you want to run it
+- A black window will open and ask you to press any key
+- Press any key on your keyboard (the Space bar works)
+
+STEP 3: WAIT FOR SETUP
+-----------------------
+The setup will:
+- Check if Python is installed
+- Install the AI libraries
+- Download the AI brain (~2GB of data, takes 5-10 minutes)
+- Test with a sample photo
+- When done, it will tell you "SETUP COMPLETE"
+
+STEP 4: PUT YOUR PHOTOS IN THE RIGHT PLACE
+------------------------------------------
+- Create a new folder named "Photos" inside the C:\HermesAIAgent\Dinh\GiaDinhPhotos folder
+- Copy your family photos from your original folder to this new "Photos" folder
+- Keep them as .jpg or .png files
+- Don't change file names
+
+STEP 5: START THE PROGRAM (EASY WAY)
+------------------------------------
+- Double-click "gui.py" (this opens a simple picture window)
+- Click "Choose Folder" next to "Folder with Photos"
+- Select the "Photos" folder you just created
+- Click "Choose Folder" next to "Output Folder"
+- Select or type the folder where you want sorted photos (for example: "C:\Users\YourName\Desktop\Sorted")
+- Click "Start Categorizing"
+- Wait for the program to work (each photo takes about 30-60 seconds)
+
+STEP 6: CHECK RESULTS
+---------------------
+After the program finishes:
+- Go to the "Output Folder" you selected
+- You will see folders like: birthday/, vacation/, wedding/, everyday/
+- Your photos will be inside the correct folders
+- Original photos are still in the "Photos" folder (they were copied, not moved)
+
+
+ALTERNATIVE METHOD (IF GUI DOESN'T WORK):
+------------------------------------------
+If the "gui.py" file doesn't open a window:
+- Double-click "run.bat"
+- This will automatically find the "Photos" folder and create the output
+- Just wait for the black window to finish
+- Check the "Categorized" folder that gets created
+
+
+WHAT IS THE AI BRAIN? (SIMPLE EXPLANATION):
+-------------------------------------------
+The AI brain is a special computer program that can "look" at pictures
+and understand what they show, like:
+- A birthday party with cake = "birthday"
+- Beach or mountains = "vacation"
+- Wedding dress = "wedding"
+- Daily family dinner = "everyday"
+- Dog or cat = "pet"
+- Food or cooking = "food"
+
+The brain learns this by reading thousands of pictures before you use it.
+This happens automatically when you run "setup.bat".
+
+
+TROUBLESHOOTING CONTENTS:
+------------------------
+
+PROBLEM 1: "Python is not found"
+- Download Python from https://python.org/downloads/
+- During installation: CHECK the box "Add Python to PATH"
+- Restart your computer after installation
+- Try setup.bat again
+
+PROBLEM 2: "No photos were found"
+- Make sure your files end with .jpg, .jpeg, .png, or .gif
+- Make sure the folder is not empty
+- Try using the GUI and click "Choose Folder" again
+
+PROBLEM 3: "The window closes too quickly"
+- Use the GUI instead (gui.py) which stays open
+- Or run setup.bat to see any error messages
+
+PROBLEM 4: "The program seems stuck"
+- Wait longer (first photo takes 2-3 minutes, others take 30-60 seconds)
+- Make sure your computer doesn't go to sleep
+- The program is working even if the window looks frozen
+
+PROBLEM 5: "Wrong category selected"
+- This is expected for some photos (AI is not perfect)
+- You can manually move photos between folders
+- The AI gets better with practice (each user's setup is independent)
+
+PROBLEM 6: "I only want to move photos, not copy"
+- In the GUI, select "Move photos (remove from source)"
+- Remember: moving deletes originals from the Photos folder
+
+
+CONTACT FOR HELP:
+----------------
+- Read design.md for more technical information
+- Look at README.txt for quick help
+- If all else fails, ask someone for help with file operations
+
+NOTE: This is designed for Windows. If you have a Mac or Linux,
+please ask someone to help with setup.
+
+Enjoy your organized family memories!

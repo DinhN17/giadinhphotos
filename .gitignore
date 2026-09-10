@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+categorized/
+sorted/
+organized/
+*.log
